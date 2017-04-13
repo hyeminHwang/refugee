@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>North Korean Refugee</title>
+
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/barchart.css" />
+	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/typeWriter.css" />
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/scrolloverflow.js"></script>
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+	<script type="text/javascript" src="lib/d3.v3.min.js"></script>
+	<script type="text/javascript" src="lib/d3.tip.v0.6.3.js"></script>
+	<script type="text/javascript" src="lib/d3-queue.v3.min.js"></script>
+	<script type="text/javascript" src="lib/topojson.v1.min.js"></script>
+	<script type="text/javascript" src="lib/sankey.js"></script>
+	<script type="text/javascript" src="js/nav.js"></script>
+	
+</head>
+<body>
+
+
+	<div id="fullpage">
+		
+			<div class="section" id="intro">
+				<div class="container" id="cover-container">
+						<h1 class="mega-header"> North Korean Refugee</h1>
+						<p class="p-font">Understanding the crisis of the North Korean Refugee</p>
+					</div>
+				
+			</div>
+	
+
+		<div class="section" id="section1">
+			<div class="tywriter test">
+				<p>"People born in North Korea are born <a>prisoners</a> for life."</p>
+				<p>-Yeonmi Park is a North Korean defector and speaking during the Peace and Conflict Plenary Session at the 2014 Summit<span>|</span></p>
+			</div>
+		</div>
+		
+		<div class="section" id="section2">
+			<div>
+				<h1 class = "title">The number of North Korean Refugees</h1>
+				<p class = "subexplan">Who arrived in South Korea</P>
+			</div>
+			<div id="test">
+			</div>
+			<p class = "upperunder">"Most of North Korean refugees are going to South Korea"</p>
+			<p class = "underbar">"After Kim Jong Un took power at the end of 2011, harsher border security policies were<br/>
+			implremented and refugees arriving in South Korea dropped by 44% (From 2,706 to 1,502)"<a href="https://www.theguardian.com/world/2015/may/07/north-korea-defectors-drop">Click!</a> 
+			</P>
+			<a class = "resource" href="http://www.freedomcollection.org/news/2014/07/infographic-north-koreas-refugees/">Resource : INFOGRAPHIC: NORTH KOREA’S REFUGEES</a>
+		</div>
+
+
+		<div class="section" id="section3">
+			<div class="tywriter test">
+				<p>"People were <a>starving to death</a>" He says people in North Korea.</p>
+				<p>-19 years old Daniel is a North Korean defector. Interviewed with VICE NEWS October 8, 2015<span>|</span></p>
+			</div>
+		</div>
+		<div class="section" id="section4">
+			<div class="container">
+				<h1 class = "titlewithpadding">Yeonmi Park's story<span style="color: #ff0000"> "In order to live"</span></h1>
+				<div class="row">
+			
+					<div class="col-sm-6" id="fontcolor">
+						<p ><a href="https://en.wikipedia.org/wiki/Park_Yeon-mi">Park Yeon-mi</a> is a North Korean defector who escaped to China in 2007 and settled in South Korea.</p>
+						<p >As her father was sent to a labor camp for smuggling, her family faced starvation. </p>
+						<p >With the aid of human traffickers, Park and her motehr escaped North Korea by crossing a frozen river and three mountains to get into the Chinese border and by
+						walking through the Gobi desert.
+						</p>
+						<p >On 1 April 2009, Park and her mother were sent to Ulan Bator’s Chinggis Khaan Airport to fly them to Seoul.</p>
+					</div>
+
+					<div class="col-sm-6">
+						<div >
+						
+							<iframe width="520" height="400" src="https://www.youtube.com/embed/ufhKWfPSQOw" frameborder="0" allowfullscreen></iframe>
+						</div>
+					</div>
+				</div>
+				<a class = "resource" href="https://en.wikipedia.org/wiki/Park_Yeon-mi">Resource :Wikipedia and Youtube</a>
+			</div>
+		</div>
+
+		<div class="section" id="section5">
+			<div class="tywriter test">
+				<p>"People were <a>starving to death</a>" He says people in North Korea.</p>
+				<p>-19 years old Daniel is a North Korean defector. Interviewed with VICE NEWS October 8, 2015<span>|</span></p>
+			</div>
+		</div>
+			
+		<div class="section" id="section6">
+			<div>
+				<h1 class = "title"><span class="highlight">Resettlement Country</span> and Number of Refugee</h1>
+				<p class = "subexplan">From 1994 to 2013, UN data</P>
+			</div>
+			<div id="sankey_refugee">
+			</div>
+			<a class = "resource" href="http://data.un.org/Data.aspx?d=UNHCR&f=indID%3AType-Ref#UNHCR">Resource : UN data</a>
+		</div>
+
+		<div class="section" id="section6">
+			<div>
+				<h1 class = "title"><span style="font-size: 40px;">In the USA, </span><span class="highlight">Where North Korean settled</span></h1>
+				<p class = "subexplan">From 2006 to 2015, The worldwide Refugee Admissions Processing System</P>
+			</div>
+			<div id="USmap">
+			</div>
+			<a class = "resource" href="https://news.vice.com/article/how-a-19-year-old-north-korean-escaped-and-became-a-sushi-chef-in-america">Resource : VICE NEWS</a>
+		</div>
+				
+
+	</div>
+
+	
+
+
+	
+	<script src="barchart.js"></script>
+	<script src="sankey_refugee.js"></script>
+	<script src="map.js"></script>
+</body>
+
+</html>

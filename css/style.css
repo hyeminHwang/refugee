@@ -1,0 +1,138 @@
+#cover-container {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+
+}
+	/* Centered texts in each section
+	* --------------------------------------- */
+.section{
+    text-align:center;
+}
+.section3_left{
+    text-align:left;
+}
+
+#intro {
+  background-image: url(../images/Unknown.jpg);
+  background-size: cover;
+
+}
+.quote{
+    width : 1200px;
+    height : 200px;
+    margin: auto;
+}
+
+.mega-header {
+  font-size: 60px;
+  text-shadow: 2px 2px black;
+  font-family: "Courier";
+  font-weight: bold;
+}
+.p-font{
+    font-family: "Courier";
+    font-size: 30px;
+}
+.mainquote{
+    font-family: 'Crimson Text', serif;
+    font-size: 50px;
+    color : white;
+}
+.quoteAuthor{
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    color : white;
+    text-align: center;   
+}
+.tywriter{
+    width : 1200px;
+    height : 200px;
+    margin: auto;
+}
+
+.title{
+    color:white;
+    font-family: "Courier";
+    
+}
+.subexplan{
+    color:white;
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
+    text-decoration: underline;
+    padding-left :550px;
+   
+}
+
+.underbar{
+    color:white;
+    font-family: "Courier";
+    font-size: 16px;
+    padding-bottom:100px;
+}
+.upperunder{
+    color:white;
+    font-family: "Courier";
+    font-size: 16px;
+
+}
+.resource{
+    color:gray;
+    font-family: 'Crimson Text', serif;
+    font-size: 10px;
+    padding-left :750px;
+    
+}
+.titlewithpadding{
+        color:white;
+    font-family: "Courier";
+    padding-bottom: 50px;
+    font-weight: bold;
+}
+#fontcolor{
+     color:white;
+    font-family: "Courier";
+    font-size: 20px;
+    text-align: left;
+}
+
+
+.node rect {
+  cursor: move;
+  fill-opacity: .9;
+  shape-rendering: crispEdges;
+}
+
+.node text {
+  pointer-events: none;
+  fill:white;
+ 
+  text-shadow: 0 1px 0 #fff;
+}
+
+.link {
+  fill: none;
+  stroke: white;
+  stroke-opacity: .2;
+}
+
+.link:hover {
+  stroke-opacity: .5;
+  color:white;
+}
+
+.states {
+  fill: none;
+  stroke: white;
+  stroke-width: 1.5px;
+  stroke-linejoin: round;
+}
+
+.legendText{
+    fill:white;
+}
+
+.highlight {
+    background-color: orangeRED;
+}
